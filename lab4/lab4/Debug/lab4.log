@@ -1,0 +1,4 @@
+﻿  lab4.cpp
+d:\download\lab4\lab4\lab4.cpp(35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  lab4.vcxproj -> D:\Download\lab4\Debug\lab4.exe
+  lab4.vcxproj -> D:\Download\lab4\Debug\lab4.pdb (Full PDB)
