@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+const double GAL=0.264179;
+void KmToGal(double, double);
+
+int main()
+{
+	double lit, km;
+	cout << "Enter how many litres were consumed:";
+	cin >> lit;
+	cout << "Enter how far you have traveled: ";
+	cin >> km;
+	KmToGal(lit,km);
+    return 0;
+}
+void KmToGal(double lit,double km){
+	double gal;
+	double dist;
+	gal = GAL*lit;
+	dist = km / gal;
+	cout << "Kilometer per gallon: " << dist << endl;
+}
